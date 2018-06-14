@@ -145,6 +145,10 @@ public final class QueryUtils {
                 kills = extractKills(REQUEST_MATCH_DATA_URL);
                 infoFromMatch.add(kills);
                 itemsByNumber = extractItemNumbers(REQUEST_MATCH_DATA_URL);
+                String[] itemList = new String[6];
+                for(int j=0;j<6;j++){
+
+                }
 
             }
         }catch(JSONException e){
