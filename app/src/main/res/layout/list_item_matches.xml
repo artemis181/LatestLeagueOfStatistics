@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/matchResultView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Match Result"
+        android:layout_marginBottom="10sp"/>
+
+    <TextView
+        android:id="@+id/championView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/matchResultView"
+        android:layout_centerHorizontal="true"
+        android:text="Champion Used"
+        android:layout_marginBottom="10sp"/>
+
+    <TextView
+        android:id="@+id/killsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/championView"
+        android:layout_centerHorizontal="true"
+        android:text="Kills"
+        android:layout_marginBottom="30sp"/>
+
+    <TextView
+        android:id="@+id/itemOneView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="87dp"
+        android:text="Item 1" />
+
+    <TextView
+        android:id="@+id/itemTwoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/itemOneView"
+        android:layout_centerHorizontal="true"
+        android:text="Item 2" />
+
+    <TextView
+        android:id="@+id/itemThreeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/itemOneView"
+        android:text="Item 3" />
+
+    <TextView
+        android:id="@+id/itemFourView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemOneView"
+        android:text="Item 4" />
+
+    <TextView
+        android:id="@+id/itemFiveView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemOneView"
+        android:layout_centerHorizontal="true"
+        android:text="Item 5" />
+
+    <TextView
+        android:id="@+id/itemSixView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/itemOneView"
+        android:text="Item 6" />
+
+
+</RelativeLayout>
